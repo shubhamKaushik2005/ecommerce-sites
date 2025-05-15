@@ -1,0 +1,181 @@
+/* General resets and typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Breadcrumb */
+.bread-crumb {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Blog Content */
+.shh {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.shh img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.shh span {
+    display: block;
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.shh h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.shh p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Tags Section */
+.flex-w.size-217 a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+.flex-w.size-217 a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Comment Section */
+form {
+    margin-top: 20px;
+}
+
+form textarea,
+form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #fdfdfd;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    color: #ccc;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-top: 1px solid #444;
+}
+
+footer h4 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+footer .p-t-27 a {
+    font-size: 18px;
+    color: #ccc;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+footer .p-t-27 a:hover {
+    color: white;
+}
+
+.tyu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.tyu div i {
+    font-size: 24px;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.tyu div:hover i {
+    color: white;
+}
+
+.mlp {
+    text-align: center;
+    margin-top: 30px;
+    color: #aaa;
+}
+
+.mlp h3, .mlp h4 {
+    margin: 5px 0;
+}
