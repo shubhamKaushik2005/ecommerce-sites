@@ -94,15 +94,15 @@ function Card() {
               <hr />
               <div className="d-flex justify-content-between mb-2">
                 <span>Total Items</span>
-                <span>$ {total.toFixed(2)}</span>
+                <span>₹ {total.toFixed(2)}</span>
               </div>
               <form>
                 <div className="mb-3">
                   <label htmlFor="shipping" className="form-label">SHIPPING</label>
                   <select id="shipping" className="form-select" onChange={handleShippingChange}>
-                    <option>Standard Delivery - $5.00</option>
-                    <option>Express Delivery - $10.00</option>
-                    <option>Pickup - $0.00</option>
+                    <option>Standard Delivery - ₹5.00</option>
+                    <option>Express Delivery - ₹10.00</option>
+                    <option>Pickup - ₹0.00</option>
                   </select>
                 </div>
                 <div className="mb-3">
@@ -113,7 +113,7 @@ function Card() {
               <hr />
               <div className="d-flex justify-content-between mb-3">
                 <strong>TOTAL PRICE</strong>
-                <strong>$ {(total + shipping).toFixed(2)}</strong>
+                <strong>₹ {(total + shipping).toFixed(2)}</strong>
               </div>
               <button className="btn btn-primary w-100">CHECKOUT</button>
             </div>

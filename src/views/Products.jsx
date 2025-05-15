@@ -43,8 +43,8 @@ function Products() {
           <section className="product-details">
             <br />
             <h1>{dd.heading}</h1>
-            <p className="price">{dd.price ? `$${dd.price}` : 'Price not available'}</p>
-            <p className="description">{dd.desc}</p>
+            <p className="price">{dd.price ? `₹${dd.price}` : 'Price not available'}</p>
+            <p className="description">₹{dd.desc}</p>
 
             <div className="options">
               <label htmlFor="color">Color:</label>

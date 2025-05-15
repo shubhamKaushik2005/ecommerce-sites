@@ -46,7 +46,7 @@ function ProfileCard(props) {
                 </Link>
                 <div className="card-body">
                     <h5 className="product-title">{heading.substr(0, 20)}...</h5>
-                    <p className="product-description">
+                    <p className="product-description">₹
                         {desc ? <i>{desc.substr(0, 50)}...</i> : <b>Desc not found</b>}
                     </p>
                     <button className="btn btn-primary" onClick={handleAddToCart}>Add To Cart</button>
